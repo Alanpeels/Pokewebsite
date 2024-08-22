@@ -1,0 +1,144 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Heading styling */
+.heading {
+    margin-bottom: 20px;
+}
+
+.heading img {
+    width: 200px;
+}
+
+/* Center elements styling */
+.center {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Button styling */
+#search-button {
+    background-color: #ffcb05;
+    color: #3b4cca;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#search-button:hover {
+    background-color: #3b4cca;
+    color: #ffcb05;
+}
+
+/* Pokémon details styling */
+.pokemon-name, .pokemon-id, .weight, .height, .types, .hp, .attack, .defense, .special-attack, .special-defense, .speed {
+    font-size: 18px;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Pokémon type colors */
+.normal {
+    color: #88887d;
+}
+
+.fire {
+    color: #ff6f52;
+}
+
+.water {
+    color: #42a1ff;
+}
+
+.electric {
+    color: #b38d1b;
+}
+
+.grass {
+    color: #4daa25;
+}
+
+.ice {
+    color: #66ccfe;
+}
+
+.fighting {
+    color: #d3887e;
+}
+
+.poison {
+    color: #c68bb7;
+}
+
+.ground {
+    color: #a58b45;
+}
+
+.flying {
+    color: #8899ff;
+}
+
+.psychic {
+    color: #ff66a3;
+}
+
+.bug {
+    color: #aabb23;
+}
+
+.rock {
+    color: #baaa66;
+}
+
+.ghost {
+    color: #9995d0;
+}
+
+.dragon {
+    color: #9e93f1;
+}
+
+.dark {
+    color: #b59682;
+}
+
+.steel {
+    color: #abaabb;
+}
+
+.fairy {
+    color: #ed99ed;
+}
+
+/* Add some spacing between type spans */
+.types span {
+    margin-right: 5px;
+}
